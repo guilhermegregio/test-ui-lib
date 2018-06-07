@@ -1,4 +1,9 @@
 {
+	"scripts": {
+		"bootstrap": "lerna bootstrap",
+		"build": "lerna exec --scope ui-lib npm run build",
+		"start": "lerna exec --scope use-lib npm run start"
+	},
 	"devDependencies": {
 		"lerna": "^2.11.0"
 	}
