@@ -1,5 +1,6 @@
 {
 	"scripts": {
+		"install": "npm run bootstrap",
 		"bootstrap": "lerna bootstrap",
 		"build": "lerna exec --scope ui-lib npm run build",
 		"start": "lerna exec --scope use-lib npm start"
